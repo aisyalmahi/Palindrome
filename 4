@@ -1,0 +1,13 @@
+# Number Palindrome Checker
+
+def is_palindrome(number):
+    # Преобразуем число в строку и сравниваем его с обратной строкой
+    return str(number) == str(number)[::-1]
+
+# Пример использования
+num = 12321
+
+if is_palindrome(num):
+    print(f"{num} is a palindrome number")
+else:
+    print(f"{num} is not a palindrome number")
